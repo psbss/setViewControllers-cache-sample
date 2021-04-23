@@ -8,65 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		348655C92632529E009DD814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348655C82632529E009DD814 /* AppDelegate.swift */; };
-		348655CB2632529E009DD814 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348655CA2632529E009DD814 /* SceneDelegate.swift */; };
 		348655CD2632529E009DD814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348655CC2632529E009DD814 /* ViewController.swift */; };
-		348655D02632529E009DD814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348655CE2632529E009DD814 /* Main.storyboard */; };
 		348655D22632529F009DD814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348655D12632529F009DD814 /* Assets.xcassets */; };
 		348655D52632529F009DD814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348655D32632529F009DD814 /* LaunchScreen.storyboard */; };
-		348655E02632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348655DF2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests.swift */; };
-		348655EB2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348655EA2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests.swift */; };
+		3486561326329002009DD814 /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3486561226329002009DD814 /* nextViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		348655DC2632529F009DD814 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 348655BD2632529E009DD814 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 348655C42632529E009DD814;
-			remoteInfo = UIPageVC_UIKit_CacheCheckSample;
-		};
-		348655E72632529F009DD814 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 348655BD2632529E009DD814 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 348655C42632529E009DD814;
-			remoteInfo = UIPageVC_UIKit_CacheCheckSample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		348655C52632529E009DD814 /* UIPageVC_UIKit_CacheCheckSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPageVC_UIKit_CacheCheckSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		348655C82632529E009DD814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		348655CA2632529E009DD814 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		348655CC2632529E009DD814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		348655CF2632529E009DD814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		348655D12632529F009DD814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		348655D42632529F009DD814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		348655D62632529F009DD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		348655DB2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPageVC_UIKit_CacheCheckSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		348655DF2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageVC_UIKit_CacheCheckSampleTests.swift; sourceTree = "<group>"; };
-		348655E12632529F009DD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		348655E62632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPageVC_UIKit_CacheCheckSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		348655EA2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageVC_UIKit_CacheCheckSampleUITests.swift; sourceTree = "<group>"; };
-		348655EC2632529F009DD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3486561226329002009DD814 /* nextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		348655C22632529E009DD814 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348655D82632529F009DD814 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348655E32632529F009DD814 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				348655C72632529E009DD814 /* UIPageVC_UIKit_CacheCheckSample */,
-				348655DE2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests */,
-				348655E92632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests */,
 				348655C62632529E009DD814 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				348655C52632529E009DD814 /* UIPageVC_UIKit_CacheCheckSample.app */,
-				348655DB2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests.xctest */,
-				348655E62632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,32 +55,13 @@
 			isa = PBXGroup;
 			children = (
 				348655C82632529E009DD814 /* AppDelegate.swift */,
-				348655CA2632529E009DD814 /* SceneDelegate.swift */,
 				348655CC2632529E009DD814 /* ViewController.swift */,
-				348655CE2632529E009DD814 /* Main.storyboard */,
+				3486561226329002009DD814 /* nextViewController.swift */,
 				348655D12632529F009DD814 /* Assets.xcassets */,
 				348655D32632529F009DD814 /* LaunchScreen.storyboard */,
 				348655D62632529F009DD814 /* Info.plist */,
 			);
 			path = UIPageVC_UIKit_CacheCheckSample;
-			sourceTree = "<group>";
-		};
-		348655DE2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				348655DF2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests.swift */,
-				348655E12632529F009DD814 /* Info.plist */,
-			);
-			path = UIPageVC_UIKit_CacheCheckSampleTests;
-			sourceTree = "<group>";
-		};
-		348655E92632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				348655EA2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests.swift */,
-				348655EC2632529F009DD814 /* Info.plist */,
-			);
-			path = UIPageVC_UIKit_CacheCheckSampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +84,6 @@
 			productReference = 348655C52632529E009DD814 /* UIPageVC_UIKit_CacheCheckSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		348655DA2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 348655F22632529F009DD814 /* Build configuration list for PBXNativeTarget "UIPageVC_UIKit_CacheCheckSampleTests" */;
-			buildPhases = (
-				348655D72632529F009DD814 /* Sources */,
-				348655D82632529F009DD814 /* Frameworks */,
-				348655D92632529F009DD814 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				348655DD2632529F009DD814 /* PBXTargetDependency */,
-			);
-			name = UIPageVC_UIKit_CacheCheckSampleTests;
-			productName = UIPageVC_UIKit_CacheCheckSampleTests;
-			productReference = 348655DB2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		348655E52632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 348655F52632529F009DD814 /* Build configuration list for PBXNativeTarget "UIPageVC_UIKit_CacheCheckSampleUITests" */;
-			buildPhases = (
-				348655E22632529F009DD814 /* Sources */,
-				348655E32632529F009DD814 /* Frameworks */,
-				348655E42632529F009DD814 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				348655E82632529F009DD814 /* PBXTargetDependency */,
-			);
-			name = UIPageVC_UIKit_CacheCheckSampleUITests;
-			productName = UIPageVC_UIKit_CacheCheckSampleUITests;
-			productReference = 348655E62632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +95,6 @@
 				TargetAttributes = {
 					348655C42632529E009DD814 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					348655DA2632529F009DD814 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 348655C42632529E009DD814;
-					};
-					348655E52632529F009DD814 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 348655C42632529E009DD814;
 					};
 				};
 			};
@@ -220,8 +112,6 @@
 			projectRoot = "";
 			targets = (
 				348655C42632529E009DD814 /* UIPageVC_UIKit_CacheCheckSample */,
-				348655DA2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests */,
-				348655E52632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +123,6 @@
 			files = (
 				348655D52632529F009DD814 /* LaunchScreen.storyboard in Resources */,
 				348655D22632529F009DD814 /* Assets.xcassets in Resources */,
-				348655D02632529E009DD814 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348655D92632529F009DD814 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348655E42632529F009DD814 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,51 +134,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				348655CD2632529E009DD814 /* ViewController.swift in Sources */,
+				3486561326329002009DD814 /* nextViewController.swift in Sources */,
 				348655C92632529E009DD814 /* AppDelegate.swift in Sources */,
-				348655CB2632529E009DD814 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348655D72632529F009DD814 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				348655E02632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		348655E22632529F009DD814 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				348655EB2632529F009DD814 /* UIPageVC_UIKit_CacheCheckSampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		348655DD2632529F009DD814 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 348655C42632529E009DD814 /* UIPageVC_UIKit_CacheCheckSample */;
-			targetProxy = 348655DC2632529F009DD814 /* PBXContainerItemProxy */;
-		};
-		348655E82632529F009DD814 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 348655C42632529E009DD814 /* UIPageVC_UIKit_CacheCheckSample */;
-			targetProxy = 348655E72632529F009DD814 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		348655CE2632529E009DD814 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				348655CF2632529E009DD814 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		348655D32632529F009DD814 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -467,86 +305,6 @@
 			};
 			name = Release;
 		};
-		348655F32632529F009DD814 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIPageVC_UIKit_CacheCheckSampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "uetyo.UIPageVC-UIKit-CacheCheckSampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPageVC_UIKit_CacheCheckSample.app/UIPageVC_UIKit_CacheCheckSample";
-			};
-			name = Debug;
-		};
-		348655F42632529F009DD814 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIPageVC_UIKit_CacheCheckSampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "uetyo.UIPageVC-UIKit-CacheCheckSampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPageVC_UIKit_CacheCheckSample.app/UIPageVC_UIKit_CacheCheckSample";
-			};
-			name = Release;
-		};
-		348655F62632529F009DD814 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIPageVC_UIKit_CacheCheckSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "uetyo.UIPageVC-UIKit-CacheCheckSampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UIPageVC_UIKit_CacheCheckSample;
-			};
-			name = Debug;
-		};
-		348655F72632529F009DD814 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIPageVC_UIKit_CacheCheckSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "uetyo.UIPageVC-UIKit-CacheCheckSampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UIPageVC_UIKit_CacheCheckSample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,24 +322,6 @@
 			buildConfigurations = (
 				348655F02632529F009DD814 /* Debug */,
 				348655F12632529F009DD814 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		348655F22632529F009DD814 /* Build configuration list for PBXNativeTarget "UIPageVC_UIKit_CacheCheckSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				348655F32632529F009DD814 /* Debug */,
-				348655F42632529F009DD814 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		348655F52632529F009DD814 /* Build configuration list for PBXNativeTarget "UIPageVC_UIKit_CacheCheckSampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				348655F62632529F009DD814 /* Debug */,
-				348655F72632529F009DD814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
