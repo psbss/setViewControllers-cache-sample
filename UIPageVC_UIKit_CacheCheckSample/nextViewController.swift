@@ -20,9 +20,9 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
 
     private lazy var pages: [UIViewController] = {
         return [
-            createPage(color: randomColor()),
-            createPage(color: randomColor()),
-            createPage(color: randomColor())
+            createPage(color: .yellow),
+            createPage(color: .blue),
+            createPage(color: .gray)
         ]
     }()
     
@@ -62,6 +62,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
     }
 
     @objc func reloadBarBtnTapped(_ sender: UIBarButtonItem) {
+        pages[2] = createPage(color: .green)
         setVC()
         print("page reloaded")
     }
