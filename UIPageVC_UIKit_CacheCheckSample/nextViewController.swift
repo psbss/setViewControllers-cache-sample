@@ -13,7 +13,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         self.dataSource = self
         self.setViewControllers([pages[0]], direction: .forward, animated: true, completion: nil)
     }
-    
+
     private lazy var pages: [UIViewController] = {
         return [
             createPage(color: .green),
@@ -21,7 +21,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
             createPage(color: .red)
         ]
     }()
-    
+
     private func createPage(color: UIColor) -> UIViewController {
         let page = UIViewController()
         page.view.backgroundColor = color
@@ -34,14 +34,14 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         }
         return nil
     }
-    
+
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         if let pageIndex = pages.firstIndex(of: viewController), pageIndex + 1 < pages.count {
             return pages[pageIndex + 1]
         }
         return nil
     }
-    
+
     func presentationCount(for pageViewController: UIPageViewController) -> Int {
         return pages.count
     }
