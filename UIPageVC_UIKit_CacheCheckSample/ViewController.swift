@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
     @objc func nextBtn(_ sender: UIButton) {
         print("HQ")
-        let vc = NextVC()
+        let vc = PageViewController()
         vc.view.backgroundColor = UIColor.blue
         self.navigationController?.pushViewController(vc, animated: true)
     }
