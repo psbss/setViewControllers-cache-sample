@@ -12,10 +12,6 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         super.viewDidLoad()
         self.dataSource = self
         self.setViewControllers([pages[0]], direction: .forward, animated: true, completion: nil)
-        
-        UIPageControl.appearance().backgroundColor = .yellow
-        UIPageControl.appearance().pageIndicatorTintColor = .lightGray
-        UIPageControl.appearance().currentPageIndicatorTintColor = .purple
     }
     
     private lazy var pages: [UIViewController] = {
