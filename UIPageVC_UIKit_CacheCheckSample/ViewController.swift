@@ -27,7 +27,7 @@ class ViewController: UIPageViewController {
 
     @objc func nextBtn(_ sender: UIButton) {
         print("HQ")
-        let vc = PageViewController()
+        let vc = PageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         vc.view.backgroundColor = UIColor.blue
         self.navigationController?.pushViewController(vc, animated: true)
     }
