@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  UIPageVC_UIKit_CacheCheckSample
+//  setViewControllers_cache_sample
 //
 //  Created by uehara yuki on 2021/04/23.
 //
