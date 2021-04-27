@@ -10,14 +10,14 @@ import UIKit
 class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
     var reloadBarBtnItem: UIBarItem!
     private var centerIndex: Int = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.dataSource = self
         reloadBarBtnItem = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(reloadBarBtnTapped(_:)))
         self.navigationItem.rightBarButtonItem = (reloadBarBtnItem as! UIBarButtonItem)
     }
-
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         setVC()
